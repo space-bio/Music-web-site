@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>musics | BIO-music</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="SolMusic HTML Template">
+	<meta name="keywords" content="music, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+ 
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+	<style>
+		.search-bar{
+        width:100%;
+        max-width:240px;
+        height:40px;
+        background-color:#202020;
+        display:flex;
+        align-items:20px;
+        border-radius:30px;
+        border:1px solid #0f33ff;
+        padding:5px,5px;
+
+        }
+        .search-bar input{
+        background:transparent;
+        flex: 1;
+        border:0;
+        outline:none;
+        padding:10px 10px;
+        font-size: 15px;
+        color:white;
+        }
+        .input{
+        background-color:#1AB21F;
+        flex: 1;
+        border:0;
+        outline:none;
+        padding:24px 10px;
+        font-size: 20px;
+        color:#0f33ff;
+        border-radius:60px;
+        }
+        @media only screen and (max-width: 385px) {
+          .search-bar input{
+          background:transparent;
+          flex: 1;
+          border:0;
+          outline:none;
+          padding:24px 20px;
+          font-size: 16px;
+          color:#0f33ff;
+          }
+        }
+        @media only screen and (max-width: 335px) {
+          .search-bar input{
+          background:transparent;
+          flex: 1;
+          border:0;
+          outline:none;
+          padding:24px 20px;
+          font-size: 12px;
+          color:#0f33ff;
+          }
+        }
+        @media only screen and (max-width: 275px) {
+          .search-bar input{
+          background:transparent;
+          flex: 1;
+          border:0;
+          outline:none;
+          padding:24px 20px;
+          font-size: 8px;
+          color:#0f33ff;
+          }
+        }
+        .search-bar button{
+
+        border-radius:50%;
+        width:40px;
+        height:40px;
+        background-image:url('png-transparent-product-design-logo-magnifying-glass-organization-magnifying-glass-glass-logo-microsoft-azure.png');
+        cursor:pointer;
+        }
+        .search-bar:hover{
+        width:100%;
+        max-width:240px;
+        height:40px;
+        background-color:#181818;
+        display:flex;
+        align-items:20px;
+        border-radius:30px;
+        border:1px solid #0f33ff;
+        padding:5px,5px;
+
+        }
+        .search-bar button:hover{
+
+        border-radius:50%;
+        width:40px;
+        height:40px;
+        background-image:url('png-transparent-product-design-logo-magnifying-glass-organization-magnifying-glass-glass-logo-microsoft-azure.png');
+        cursor:pointer;
+        }
+	</style>
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section -->
+	<header class="header-section clearfix">
+		<a href="index.html" class="site-logo">
+			<img src="img/logo.png" alt="">
+		</a>
+		<div class="header-right">
+			<a href="#" class="hr-btn">Help</a>
+			<span>|</span>
+			<div class="user-panel">
+
+				<form action="https://eu.hitmotop.com/search" target="_blank" method="get" class="search-bar">
+					<input type="text" placeholder="search anything" name="q" class="input">
+					<button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
+		</div>
+		<ul class="main-menu">
+			<li><a href="index.html">Home</a></li>
+
+			<li><a href="category.html">Category</a></li>
+			<li><a href="playlist.html">Playlist</a></li>
+			<li><a href="artist.html">Artist</a></li>
+
+		</ul>
+	</header>
+	<!-- Header section end -->
+
+	<!-- Category section -->
+	<section class="category-section spad">
+		<div class="container-fluid">
+			<div class="section-title">
+				<h2>Live Concert Playlist</h2>
+			</div>
+			<div class="container">
+				<div class="category-links">
+					<a href="#" class="active">Genres</a>
+					<a href="artist.html">Artists</a>
+					<a href="playlist.html">All Playlist</a>
+				</div>
+			</div>
+			<div class="category-items">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="category-item">
+							<img src="img/playlist/1.jpg" alt="">
+							<div class="ci-text">
+								<h4>Shape of you</h4>
+								<p>Ed Sheeran</p>
+							</div>
+							<a href="artist.html" class="ci-link"><i class="fa fa-play"></i></a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="category-item">
+							<img src="img/playlist/2.jpg" alt="">
+							<div class="ci-text">
+								<h4>Mockingbird</h4>
+								<p>Live from Madrid</p>
+							</div>
+							<a href="artist1.html" class="ci-link"><i class="fa fa-play"></i></a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="category-item">
+							<img src="img/playlist/3.jpg" alt="">
+							<div class="ci-text">
+								<h4>Toxic</h4>
+								<p>Boy with Uke</p>
+							</div>
+							<a href="artist2.html" class="ci-link"><i class="fa fa-play"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Category section end -->
+
+	<!-- Songs section  -->
+	<section class="songs-section">
+		<div class="container">
+			<!-- song -->
+			<div class="song-item">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="song-info-box">
+							<img src="img/songs/1.jpg" alt="">
+							<div class="song-info">
+								<h4>Mood</h4>
+								<p>24k Goldn, Iann Dior</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="single_player_container">
+							<div class="single_player">
+								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_1" data-url="music-files/24kGoldn_feat_Iann_Dior_-_Mood_70354807.mp3"></div>
+								<div class="jp-audio jp_container_1" role="application" aria-label="media player">
+									<div class="jp-gui jp-interface">
+
+										<!-- Player Controls -->
+										<div class="player_controls_box">
+											<button class="jp-prev player_button" tabindex="0"></button>
+											<button class="jp-play player_button" tabindex="0"></button>
+											<button class="jp-next player_button" tabindex="0"></button>
+											<button class="jp-stop player_button" tabindex="0"></button>
+										</div>
+										<!-- Progress Bar -->
+										<div class="player_bars">
+											<div class="jp-progress">
+												<div class="jp-seek-bar">
+													<div>
+														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
+													</div>
+												</div>
+											</div>
+											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
+										</div>
+									</div>
+									<div class="jp-no-solution">
+										<span>Update Required</span>
+										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="songs-links">
+							<a href=""><img src="img/icons/p-1.png" alt=""></a>
+							<a href="music-files/1.mp3" download="bio"><img src="img/icons/p-2.png" alt="bio"></a>
+							<a href=""><img src="img/icons/p-3.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- song -->
+			<div class="song-item">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="song-info-box">
+							<img src="img/songs/2.jpg" alt="">
+							<div class="song-info">
+								<h4>In da club</h4>
+								<p>50 cent</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="single_player_container">
+							<div class="single_player">
+								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_2" data-url="music-files/50_Cent_-_In_Da_Club_47965582.mp3"></div>
+								<div class="jp-audio jp_container_2" role="application" aria-label="media player">
+									<div class="jp-gui jp-interface">
+
+										<!-- Player Controls -->
+										<div class="player_controls_box">
+											<button class="jp-prev player_button" tabindex="0"></button>
+											<button class="jp-play player_button" tabindex="0"></button>
+											<button class="jp-next player_button" tabindex="0"></button>
+											<button class="jp-stop player_button" tabindex="0"></button>
+										</div>
+
+										<!-- Progress Bar -->
+										<div class="player_bars">
+											
+											<div class="jp-progress">
+												<div class="jp-seek-bar">
+													<div>
+														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
+													</div>
+												</div>
+											</div>
+											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
+										</div>
+									</div>
+									<div class="jp-no-solution">
+										<span>Update Required</span>
+										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="songs-links">
+							<a href=""><img src="img/icons/p-1.png" alt=""></a>
+							<a href=""><img src="img/icons/p-2.png" alt=""></a>
+							<a href=""><img src="img/icons/p-3.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- song -->
+			<div class="song-item">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="song-info-box">
+							<img src="img/songs/3.jpg" alt="">
+							<div class="song-info">
+								<h4>Dancing</h4>
+								<p>Aaron Smith</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="single_player_container">
+							<div class="single_player">
+								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_3" data-url="music-files/Aaron_Smith_-_Dancin_73039632.mp3"></div>
+								<div class="jp-audio jp_container_3" role="application" aria-label="media player">
+									<div class="jp-gui jp-interface">
+
+										<!-- Player Controls -->
+										<div class="player_controls_box">
+											<button class="jp-prev player_button" tabindex="0"></button>
+											<button class="jp-play player_button" tabindex="0"></button>
+											<button class="jp-next player_button" tabindex="0"></button>
+											<button class="jp-stop player_button" tabindex="0"></button>
+										</div>
+
+										<!-- Progress Bar -->
+										<div class="player_bars">
+											
+											<div class="jp-progress">
+												<div class="jp-seek-bar">
+													<div>
+														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
+													</div>
+												</div>
+											</div>
+											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
+										</div>
+									</div>
+									<div class="jp-no-solution">
+										<span>Update Required</span>
+										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="songs-links">
+							<a href=""><img src="img/icons/p-1.png" alt=""></a>
+							<a href=""><img src="img/icons/p-2.png" alt=""></a>
+							<a href=""><img src="img/icons/p-3.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- song -->
+			<div class="song-item">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="song-info-box">
+							<img src="img/songs/4.jpg" alt="">
+							<div class="song-info">
+								<h4>Hotline bling</h4>
+								<p>Billie Eilish</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="single_player_container">
+							<div class="single_player">
+								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_4" data-url="music-files/Billie_Eilish_-_Hotline_bling_76969692.mp3"></div>
+								<div class="jp-audio jp_container_4" role="application" aria-label="media player">
+									<div class="jp-gui jp-interface">
+
+										<!-- Player Controls -->
+										<div class="player_controls_box">
+											<button class="jp-prev player_button" tabindex="0"></button>
+											<button class="jp-play player_button" tabindex="0"></button>
+											<button class="jp-next player_button" tabindex="0"></button>
+											<button class="jp-stop player_button" tabindex="0"></button>
+										</div>
+
+										<!-- Progress Bar -->
+										<div class="player_bars">
+											
+											<div class="jp-progress">
+												<div class="jp-seek-bar">
+													<div>
+														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
+													</div>
+												</div>
+											</div>
+											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
+										</div>
+									</div>
+									<div class="jp-no-solution">
+										<span>Update Required</span>
+										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="songs-links">
+							<a href=""><img src="img/icons/p-1.png" alt=""></a>
+							<a href=""><img src="img/icons/p-2.png" alt=""></a>
+							<a href=""><img src="img/icons/p-3.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- song -->
+			<div class="song-item">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="song-info-box">
+							<img src="img/songs/5.jpg" alt="">
+							<div class="song-info">
+								<h4>From the island</h4>
+								<p>Jason Derulo and Tomo</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="single_player_container">
+							<div class="single_player">
+								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_5" data-url="music-files/Frozy_feat_Jason_Derulo_and_Tomo_-_Frozy_feat_Jason_Derulo_and_Tomo_-_From_The_Islands_Kompa_Pasion_77818871.mp3"></div>
+								<div class="jp-audio jp_container_5" role="application" aria-label="media player">
+									<div class="jp-gui jp-interface">
+
+										<!-- Player Controls -->
+										<div class="player_controls_box">
+											<button class="jp-prev player_button" tabindex="0"></button>
+											<button class="jp-play player_button" tabindex="0"></button>
+											<button class="jp-next player_button" tabindex="0"></button>
+											<button class="jp-stop player_button" tabindex="0"></button>
+										</div>
+
+										<!-- Progress Bar -->
+										<div class="player_bars">
+											
+											<div class="jp-progress">
+												<div class="jp-seek-bar">
+													<div>
+														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
+													</div>
+												</div>
+											</div>
+											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
+										</div>
+									</div>
+									<div class="jp-no-solution">
+										<span>Update Required</span>
+										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="songs-links">
+							<a href=""><img src="img/icons/p-1.png" alt=""></a>
+							<a href=""><img src="img/icons/p-2.png" alt=""></a>
+							<a href=""><img src="img/icons/p-3.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- song -->
+			<div class="song-item">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="song-info-box">
+							<img src="img/songs/6.jpg" alt="">
+							<div class="song-info">
+								<h4>Idea 22</h4>
+								<p>Anya Nami</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="single_player_container">
+							<div class="single_player">
+								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_6" data-url="music-files/Gibran_Alcocer_Anya_Nami_-_Idea_22_77525052.mp3"></div>
+								<div class="jp-audio jp_container_6" role="application" aria-label="media player">
+									<div class="jp-gui jp-interface">
+
+										<!-- Player Controls -->
+										<div class="player_controls_box">
+											<button class="jp-prev player_button" tabindex="0"></button>
+											<button class="jp-play player_button" tabindex="0"></button>
+											<button class="jp-next player_button" tabindex="0"></button>
+											<button class="jp-stop player_button" tabindex="0"></button>
+										</div>
+
+										<!-- Progress Bar -->
+										<div class="player_bars">
+											
+											<div class="jp-progress">
+												<div class="jp-seek-bar">
+													<div>
+														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
+													</div>
+												</div>
+											</div>
+											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
+										</div>
+									</div>
+									<div class="jp-no-solution">
+										<span>Update Required</span>
+										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="songs-links">
+							<a href=""><img src="img/icons/p-1.png" alt=""></a>
+							<a href=""><img src="img/icons/p-2.png" alt=""></a>
+							<a href=""><img src="img/icons/p-3.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- song -->
+			<div class="song-item">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="song-info-box">
+							<img src="img/songs/7.jpg" alt="">
+							<div class="song-info">
+								<h4>Old town road</h4>
+								<p>Lil Nas X</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="single_player_container">
+							<div class="single_player">
+								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_7" data-url="music-files/Lil_Nas_X_-_Old_Town_Road_62950640.mp3"></div>
+								<div class="jp-audio jp_container_7" role="application" aria-label="media player">
+									<div class="jp-gui jp-interface">
+
+										<!-- Player Controls -->
+										<div class="player_controls_box">
+											<button class="jp-prev player_button" tabindex="0"></button>
+											<button class="jp-play player_button" tabindex="0"></button>
+											<button class="jp-next player_button" tabindex="0"></button>
+											<button class="jp-stop player_button" tabindex="0"></button>
+										</div>
+
+										<!-- Progress Bar -->
+										<div class="player_bars">
+
+											<div class="jp-progress">
+												<div class="jp-seek-bar">
+													<div>
+														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
+													</div>
+												</div>
+											</div>
+											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
+										</div>
+									</div>
+									<div class="jp-no-solution">
+										<span>Update Required</span>
+										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="songs-links">
+							<a href=""><img src="img/icons/p-1.png" alt=""></a>
+							<a href=""><img src="img/icons/p-2.png" alt=""></a>
+							<a href=""><img src="img/icons/p-3.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- song -->
+			<div class="song-item">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="song-info-box">
+							<img src="img/songs/8.jpg" alt="">
+							<div class="song-info">
+								<h4>Still D.r.e</h4>
+								<p>Dr.dre, Snoop Dog</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="single_player_container">
+							<div class="single_player">
+								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_8" data-url="music-files/Snoop_Dogg_Dr_Dre_-_Still_DRE_47964903.mp3"></div>
+								<div class="jp-audio jp_container_8" role="application" aria-label="media player">
+									<div class="jp-gui jp-interface">
+
+										<!-- Player Controls -->
+										<div class="player_controls_box">
+											<button class="jp-prev player_button" tabindex="0"></button>
+											<button class="jp-play player_button" tabindex="0"></button>
+											<button class="jp-next player_button" tabindex="0"></button>
+											<button class="jp-stop player_button" tabindex="0"></button>
+										</div>
+
+										<!-- Progress Bar -->
+										<div class="player_bars">
+											
+											<div class="jp-progress">
+												<div class="jp-seek-bar">
+													<div>
+														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
+													</div>
+												</div>
+											</div>
+											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
+										</div>
+									</div>
+									<div class="jp-no-solution">
+										<span>Update Required</span>
+										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="songs-links">
+							<a href=""><img src="img/icons/p-1.png" alt=""></a>
+							<a href=""><img src="img/icons/p-2.png" alt=""></a>
+							<a href=""><img src="img/icons/p-3.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="site-pagination pt-5 mt-5">
+				<a href="#" class="active">01.</a>
+			</div>
+		</div>
+	</section>
+	<!-- Songs section end -->
+
+	<!-- Footer section -->
+	<footer class="footer-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-7 order-lg-2">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="footer-widget">
+								<h2>Our sites</h2>
+								<ul>
+									<li><a href="https://bio-server-games.netlify.app">Online games</a></li>
+									<li><a href="https://bio-server.netlify.app">Searching</a></li>
+									<li><a href="https://bio-server-eco.netlify.app">Nature</a></li>
+									<li><a href="https://bio-server-courses.netlify.app ">courses</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="footer-widget">
+								<h2>Products</h2>
+								<ul>
+									<li><a href="artist.html">Music</a></li>
+									<li><a href="category.html">Categories</a></li>
+									<li><a href="playlist.html">Playlists</a></li>
+									<li><a href="index.html">Home</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="footer-widget">
+								<h2>Playlists</h2>
+								<ul>
+									<li><a href="artist.html">Eminem</a></li>
+									<li><a href="category.html">Boy with Uk</a></li>
+									<li><a href="category.html">Billie Eilish</a></li>
+									<li><a href="category.html">Ed Sheeran</a></li>
+									<li><a href="category.html">Beethoven</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-5 order-lg-1">
+					<img src="img/logo.png" alt="">
+					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://BIO-SERVER-sites.netlify.app" target="_blank">BIO-SERVER</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+					<div class="social-links">
+						<a href="https://www.instagram.com/bio_server_/"><i class="fa fa-instagram"></i></a>
+						<a href="https://t.me/BIO_SERVER"><i class="fa fa-telegram"></i></a>
+						<a href="https://youtube.com/@BIO-SERVER"><i class="fa fa-youtube"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section end -->
+	
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- Audio Player and Initialization -->
+	<script src="js/jquery.jplayer.min.js"></script>
+	<script src="js/jplayerInit.js"></script>
+
+	</body>
+</html>
